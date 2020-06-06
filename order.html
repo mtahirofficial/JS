@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Enterprise</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="headerLine"></div>
+    <div class="logo">
+        <a href="/index.html"><img class="logoImage" src="./Image/Logo JS.png" alt="" /></a>
+    </div>
+    <div class="companyName">
+        <h1>
+            <a class="name" href="/index.html">JS Enterprise</a>
+        </h1>
+    </div>
+    <div class="topMenu float-right">
+        <ul class="topMenuList">
+            <li class="menuItem">
+                <a class="menuLink" href="/login">Login</a>
+            </li>
+            <li class="menuItem">
+                <a class="menuLink" href="/signup">Signup</a>
+            </li>
+        </ul>
+    </div>
+    <div class="Navbar navbar navbar-expand-lg navbar-light float-right">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navList navbar-nav mr-auto">
+                <li class="navItem nav-item">
+                    <a class="navLink nav-link" href="index.html">Home</a>
+                </li>
+                <li class="navItem nav-item">
+                    <a class="navLink nav-link" href="./products.html">Products</a>
+                </li>
+                <li class="navItem nav-item">
+                    <a class="navLink nav-link" href="order.html">Order</a>
+                </li>
+                <li class="navItem nav-item">
+                    <a class="navLink nav-link" href="about-us.html">About Us</a>
+                </li>
+                <li class="navItem nav-item">
+                    <a class="navLink nav-link" href="/contact">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+
+
+    <div class="orderNow-container">
+        <div class="orderNow">
+            <h1>Order Now</h1>
+        </div>
+        <div>
+            <form class="orderForm">
+
+                <div class="container">
+                    <h3>Customer Info</h3>
+                    <div class="row inputData">
+
+                        <hr />
+                        <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+                            <div class="ui-placeholder ui-leftTop ui-zoom">
+                                <input type="text" class="ui-underline" placeholder="Invoice" />
+                                <span>Invoice</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+                            <div class="ui-placeholder ui-leftTop ui-zoom">
+                                <input type="text" class="ui-underline" placeholder="ID" maxLength="11" />
+                                <span>ID</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12 mb-5">
+                            <div class="ui-placeholder ui-leftTop ui-zoom">
+                                <input type="text" class="ui-underline" placeholder="Shop Name and Address" />
+                                <span>Shop Name and Address</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+                            <div class="ui-placeholder ui-leftTop ui-zoom">
+                                <input type="text" class="ui-underline" placeholder="Route" />
+                                <span>Route</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+                            <div class="ui-placeholder ui-leftTop ui-zoom">
+                                <input type="text" class="ui-underline" placeholder="Mobile No." maxLength="11" />
+                                <span>Mobile No.</span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <h3>Items Info</h3>
+                    <div class="row inputData">
+                        <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+                            <div class="ui-placeholder ui-leftTop ui-zoom">
+                                <input type="text" class="ui-underline" placeholder="Sr. #" />
+                                <span>Sr. #</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+                            <div class="ui-placeholder ui-leftTop ui-zoom">
+                                <input type="text" class="ui-underline" placeholder="Item Name" maxLength="11" />
+                                <span>Item Name</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+                            <div class="ui-placeholder ui-leftTop ui-zoom">
+                                <input type="text" class="ui-underline" placeholder="Category" />
+                                <span>Category</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+                            <div class="ui-placeholder ui-leftTop ui-zoom">
+                                <input type="text" class="ui-underline" placeholder="Company Name" />
+                                <span>Company Name</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+                            <div class="ui-placeholder ui-leftTop ui-zoom">
+                                <input type="text" class="ui-underline" placeholder="Quantity" />
+                                <span>Quantity</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+                            <div class="ui-placeholder ui-leftTop ui-zoom">
+                                <input type="text" class="ui-underline" placeholder="Unit Price" maxLength="11" />
+                                <span>Unit Price</span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="container buttons">
+                    <div class="row buttonContainer">
+                        <button class="col-sm-12 col-md-6 col-lg-3 add">Add Item</button>
+                        <button class="col-sm-12 col-md-6 col-lg-3 clear">Clear Item</button>
+                        <button class="col-sm-12 col-md-6 col-lg-3 cancel">Cancel Order</button>
+                        <button class="col-sm-12 col-md-6 col-lg-3 invoice">Generate Invoice</button>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 pl-0 pr-0">
+                    <h3 class="mt-5">Product List</h3>
+                    <div class="table table-hover table-responsive productList">
+                        <table class="read-table">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="tableHeaders">Sr. #</th>
+                                    <th scope="col" class="tableHeaders">Company Name</th>
+                                    <th scope="col" class="tableHeaders">Category</th>
+                                    <th scope="col" class="tableHeaders">Item Name</th>
+                                    <th scope="col" class="tableHeaders">Quantity</th>
+                                    <th scope="col" class="tableHeaders">Unit Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="records">
+                                    <td>1</td>
+                                    <td>Company</td>
+                                    <td>Category</td>
+                                    <td>Item</td>
+                                    <td>Quantity</td>
+                                    <td>Unit Price</td>
+                                </tr>
+                                <tr class="records">
+                                    <td>1</td>
+                                    <td>Company</td>
+                                    <td>Category</td>
+                                    <td>Item</td>
+                                    <td>Quantity</td>
+                                    <td>Unit Price</td>
+                                </tr>
+                                <tr class="records">
+                                    <td>1</td>
+                                    <td>Company</td>
+                                    <td>Category</td>
+                                    <td>Item</td>
+                                    <td>Quantity</td>
+                                    <td>Unit Price</td>
+                                </tr>
+                                <tr class="records">
+                                    <td>1</td>
+                                    <td>Company</td>
+                                    <td>Category</td>
+                                    <td>Item</td>
+                                    <td>Quantity</td>
+                                    <td>Unit Price</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr class="records">
+                                    <td colSpan="3">Total</td>
+                                    <td colSpan="3">1570/- Rs.</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid footer">
+        <div class="row">
+            <div class="col-sm-5  text-center">
+                <span class="copyright">
+              <span class="copySymbol">&copy;</span> JS Enterprise {this.year}.
+                </span>
+            </div>
+            <div class="offset-sm-2 col-sm-5 text-center">
+                <span class="developer">
+              Developed By: <a class="Fm-DevnDesign" href="/index.html">Fm Dev<span style="color: #696969;">n</span>Design</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- <button id="button_closed"><span>+</span></button> -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(
+            function() {
+                $(".slideshow > div:gt(0)").hide();
+
+                setInterval(function() {
+                    $('.slideshow > div:first')
+                        .fadeOut(2000)
+                        .next()
+                        .fadeIn(2000)
+                        .end()
+                        .appendTo('.slideshow');
+                }, 5000);
+            }
+        )
+    </script>
+</body>
+
+</html>
